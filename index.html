@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraion Form</title>
+    <style type="text/css">
+        label{
+            width: 200px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form style="background-color: red;">
+        <fieldset>
+            <center><legend><h1>Registration Form</h1></legend></center>
+            <label>First name</label>
+            <input type="text" style="border-radius: 5px; position: relative; margin: 20px; width: 300px;">
+            <br>
+            <label>Middle name</label>
+            <input type="text" style="border-radius: 5px; position: relative; margin: 20px; width: 300px;">
+            <br>
+            <label>Last name</label>
+            <input type="text" style="border-radius: 5px;position: relative; margin: 20px; width: 300px;">
+            <br>
+            <label for="address">Address</label>
+            <input type="text" style="border-radius: 5px; position: relative; margin: 20px; width: 900px;">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" style="border-radius: 5px;position: relative; margin: 20px; width: 600px;">
+            <br>
+            <label>Phone number</label>
+            <input type="number" style="border-radius: 5px;position: relative; margin: 20px; width: 300px;" name="phone number">
+            <br>
+            <label>Position you are applying for &#42;</label>
+            <select name="Position you are applying for &#42;" style="border-radius: 5px; position: relative; margin: 20px; width: 300px;">
+                <option value="Value 1" selected="selected">select option</option>
+                <option value="Value 2">Teacher</option>
+                <option value="Value 3">Doctor</option>
+                <option value="Value 4">Banker</option>
+                <option value="Value 5">Footballer</option>
+            </select>
+            <div>
+                <label>Gender:</label><br>
+                <input type="radio" value="Male" name="gender"> Male <br>
+                <input type="radio" value="Female" name="gender"> Female <br>
+                <input type="radio" value="Other" name="gender"> Other <br>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" style="border-radius: 5px; position: relative; margin: 20px; width: 300px;">
+            </div>
+            <div>
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" style="border-radius: 5px; position: relative; margin: 20px; width: 300px;">
+            </div>
+            <label for="country">Country</label>
+            <select name="country" style="border-radius: 5px; position: relative; margin: 20px; width: 300px;">
+                <option value="Value 1" selected="selected">select option</option>
+                <option value="Value 2">America</option>
+                <option value="Value 3">Canada</option>
+                <option value="Value 4">England</option>
+                <option value="Value 5">Nigeria</option>
+                <option value="Value 6">Spain</option>
+                <option value="Value 7">Germany</option>
+                <option value="Value 8">Italy</option>
+                <option value="Value 9">France</option>
+                <option value="Value 10">Portugal</option>
+            </select>
+            <br>
+            <input type="file">
+            <br>
+            <label>Password</label>
+            <input type="password" name="pass" style="border-radius: 5px;position: relative; margin: 20px;"">
+            <br>
+            <input type="submit" name="submitBtn" value="Submit"/>
+            <input type="reset" name="resetBtn" value="Reset"/>
+        </fieldset>
+    </form>
+</body>
+</html>
